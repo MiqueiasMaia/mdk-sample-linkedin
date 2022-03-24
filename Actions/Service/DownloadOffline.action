@@ -1,0 +1,12 @@
+{
+    "Service": "/VaeesMDK/Services/com_sap_edm_sampleservice_v2.service",
+    "DefiningRequests": [{
+        "Name": "Suppliers",
+        "Query": "Suppliers"
+    }],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/VaeesMDK/Actions/Service/SyncFailureMessage.action"
+}

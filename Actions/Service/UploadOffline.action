@@ -1,0 +1,9 @@
+{
+    "Service": "/VaeesMDK/Services/com_sap_edm_sampleservice_v2.service",
+    "_Type": "Action.Type.OfflineOData.Upload",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnSuccess": "/VaeesMDK/Actions/Service/DownloadStartedMessage.action",
+    "OnFailure": "/VaeesMDK/Actions/Service/SyncFailureMessage.action"
+}

@@ -1,0 +1,26 @@
+{
+	"_Type": "Register.Type.ExtensionControl",
+	"Module": "SampleModule",
+	"Control": "SampleExtension",
+	"Class": "SampleClass",
+	"ExtensionPropertiesSchema": {
+		"type": "object",
+		"BindType": "",
+		"properties": {
+			"Prop": {
+				"type": "object",
+				"BindType": "",
+				"properties": {
+					"Title": {
+						"type": "string",
+						"BindType": ""
+					},
+					"Substitle": {
+						"type": "string",
+						"BindType": ""
+					}
+				}
+			}
+		}
+	}
+}
