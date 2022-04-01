@@ -1,41 +1,23 @@
 {
 	"Credential": "cf",
 	"CF": {
-		"Target": "https://api.cf.us10.hana.ondemand.com",
-		"Organization": "106c5329-5a9b-4dfc-8ce7-57f42c243383",
-		"Space": "f1a612d8-da55-430b-98d8-f4aafb67204c",
-		"Deploy": {
-			"Description": "",
-			"WebClient": {
-				"Version": "5.0.0",
-				"URL": "https://mdk-webclient-runtime.cfapps.us10.hana.ondemand.com/runtime-5.0.0/",
-				"Dev": false
-			},
-			"Destination": [
-				{
-					"CF": "com.sap.edm.sampleservice.v2",
-					"MDK": "com.sap.edm.sampleservice.v2",
-					"URL": ""
-				}
-			],
-			"Name": "ns.VaeesMDK",
-			"Version": "1.0.0",
-			"StandaloneRouter": true,
-			"URL": "https://efd86134trial-dev-nsvaeesmdk-approuter.cfapps.us10.hana.ondemand.com/nsVaeesMDK/index.html"
-		}
+		"Target": "https://api.cf.ca10.hana.ondemand.com",
+		"Organization": "bf6f9964-0d81-4287-bc8d-e116dec9aec3",
+		"Space": "0e2abb57-c168-4879-8068-3836b2a7f7ed"
 	},
 	"MobileService": {
 		"Type": "standard",
-		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/106c5329-5a9b-4dfc-8ce7-57f42c243383/space/f1a612d8-da55-430b-98d8-f4aafb67204c",
-		"AppId": "vaees.linkedin.demo",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.ca10.hana.ondemand.com/cockpit/v1/org/bf6f9964-0d81-4287-bc8d-e116dec9aec3/space/0e2abb57-c168-4879-8068-3836b2a7f7ed",
+		"AppId": "com.sap.vaees.demo.ptidigital",
 		"Destination": [
-			"com.sap.edm.sampleservice.v2"
+			"com.sap.edm.sampleservice.v4",
+			"com.sap.vaees.demo.ptidigital"
 		]
 	},
 	"Onboarding": {
 		"Schema": "sapmobilesvcs",
 		"TimeZone": "UTC",
-		"URL": "sapmobilesvcs://?AppId=vaees.linkedin.demo&ClientId=c39c7f8c-d783-484e-8d03-17a348b7fb47&ServerUrl=https://efd86134trial-dev-vaees-linkedin-demo.cfapps.us10.hana.ondemand.com&SapCloudPlatformEndpoint=https://efd86134trial-dev-vaees-linkedin-demo.cfapps.us10.hana.ondemand.com&AuthorizationEndpointUrl=https://efd86134trial-dev-vaees-linkedin-demo.cfapps.us10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://efd86134trial-dev-vaees-linkedin-demo.cfapps.us10.hana.ondemand.com&TokenUrl=https://efd86134trial-dev-vaees-linkedin-demo.cfapps.us10.hana.ondemand.com/oauth2/api/v1/token"
+		"URL": "sapmobilesvcs://?AppId=com.sap.vaees.demo.ptidigital&ClientId=668b4122-669c-4471-bdbe-c3a00472bc28&ServerUrl=https://cfdevmtl-dev-com-sap-vaees-demo-ptidigital.cfapps.ca10.hana.ondemand.com&SapCloudPlatformEndpoint=https://cfdevmtl-dev-com-sap-vaees-demo-ptidigital.cfapps.ca10.hana.ondemand.com&AuthorizationEndpointUrl=https://cfdevmtl-dev-com-sap-vaees-demo-ptidigital.cfapps.ca10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://cfdevmtl-dev-com-sap-vaees-demo-ptidigital.cfapps.ca10.hana.ondemand.com&TokenUrl=https://cfdevmtl-dev-com-sap-vaees-demo-ptidigital.cfapps.ca10.hana.ondemand.com/oauth2/api/v1/token"
 	},
 	"LCAP": {
 		"FullName": "",

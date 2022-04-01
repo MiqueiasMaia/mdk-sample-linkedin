@@ -1,0 +1,126 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Value": "{SupplierName}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty1",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Supplier Name",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "SupplierName",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Supplier Name",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"Value": "{SupplierId}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty2",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Supplier Id",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "SupplierId",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Supplier Id",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"Value": "{Street}, {HouseNumber}, {City} - {PostalCode}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty4",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Address",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "Address",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Address",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"Value": "{EmailAddress}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty6",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Email Address ",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "EmailAddress",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Email Address",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"Value": "{PhoneNumber}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty9",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Phone Number",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "PhoneNumber",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Phone Number",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"Value": "{UpdatedTimestamp}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "FormCellSimpleProperty11",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Updated Timestamp",
+							"PlaceHolder": "PlaceHolder"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "Timestamp",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Updated Timestamp",
+							"PlaceHolder": "PlaceHolder"
+						}
+					],
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0"
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Detail",
+	"Caption": "Detail",
+	"OnLoaded": "/VaeesMDK/Rules/FillSupplierDetails.js"
+}
